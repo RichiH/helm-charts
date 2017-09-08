@@ -1,0 +1,10 @@
+images:
+    viewer: 'hub.global.cloud.sap/monsoon/flamegraphviewer:latest'
+    pyflame: 'hub.global.cloud.sap/monsoon/pyflame:latest'
+
+pod:
+    replicas:
+        viewer: 1
+
+collector:
+    node_selector: {}
